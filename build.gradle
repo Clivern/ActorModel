@@ -17,6 +17,7 @@ plugins {
     id 'application'
     id 'jacoco'
     id 'com.diffplug.gradle.spotless' version '4.5.1'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
 }
 
 spotless {
@@ -25,6 +26,14 @@ spotless {
         importOrder 'java'
         googleJavaFormat('1.1').aosp()
         target 'src/**/*.java'
+    }
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "src/main/resources"
+        }
     }
 }
 
@@ -45,6 +54,15 @@ dependencies {
 
   testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.8'
   testCompile 'junit:junit:4.13'
+}
+
+// make build
+// java -jar ./build/target/actor_model-1.0.0-fat.jar
+shadowJar {
+    classifier = 'fat'
+    mainClassName = mainClassName
+    append 'reference.conf'
+    destinationDir new File("./build/target")
 }
 
 run {
