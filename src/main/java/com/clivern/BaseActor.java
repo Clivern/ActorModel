@@ -18,8 +18,10 @@ import com.clivern.config.*;
 import com.clivern.service.*;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
+import java.lang.InterruptedException;
 import java.util.concurrent.TimeUnit;
 
+/** BaseActor Class */
 public class BaseActor {
 
     public static void main(String[] args) throws InterruptedException {

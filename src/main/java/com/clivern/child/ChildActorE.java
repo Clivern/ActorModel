@@ -18,6 +18,7 @@ import akka.actor.typed.javadsl.*;
 import com.clivern.service.*;
 import com.google.inject.Injector;
 
+/** ChildActorE Class */
 public class ChildActorE extends AbstractBehavior<ChildActorE.Payload> {
 
     private Injector injector;

@@ -15,7 +15,7 @@ package com.clivern.config;
 
 import com.google.inject.AbstractModule;
 
-/** DI Bindings Class */
+/** Container Class */
 public class Container extends AbstractModule {
 
     @Override

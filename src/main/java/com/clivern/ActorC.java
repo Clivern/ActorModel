@@ -19,6 +19,7 @@ import com.clivern.service.*;
 import com.google.inject.Injector;
 import java.lang.Exception;
 
+/** ActorC Class */
 public class ActorC extends AbstractBehavior<ActorC.Payload> {
 
     private Injector injector;

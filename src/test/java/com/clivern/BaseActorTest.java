@@ -17,7 +17,7 @@ import akka.actor.testkit.typed.javadsl.TestKitJunitResource;
 import org.junit.ClassRule;
 import org.junit.Test;
 
-//#definition
+/** BaseActorTest Class */
 public class BaseActorTest {
 
     @ClassRule public static final TestKitJunitResource testKit = new TestKitJunitResource();

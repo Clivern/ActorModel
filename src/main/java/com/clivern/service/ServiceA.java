@@ -13,6 +13,7 @@
  */
 package com.clivern.service;
 
+/** ServiceA Class */
 public class ServiceA {
     public String getSomething() {
         return "something";

@@ -20,6 +20,7 @@ import com.clivern.ActorB;
 import com.clivern.service.*;
 import com.google.inject.Injector;
 
+/** ChildActorD Class */
 public class ChildActorD extends AbstractBehavior<ChildActorD.Payload> {
 
     private Injector injector;
