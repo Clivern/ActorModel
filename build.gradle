@@ -48,7 +48,7 @@ repositories {
 mainClassName = "com.clivern.BaseActor"
 
 dependencies {
-  compile 'com.typesafe.akka:akka-actor-typed_2.13:2.6.8'
+  compile 'com.typesafe.akka:akka-actor-typed_2.13:2.6.12'
   compile 'ch.qos.logback:logback-classic:1.2.3'
   compile 'com.google.inject:guice:4.2.3'
 
