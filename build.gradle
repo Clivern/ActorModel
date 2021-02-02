@@ -52,7 +52,7 @@ dependencies {
   compile 'ch.qos.logback:logback-classic:1.2.3'
   compile 'com.google.inject:guice:4.2.3'
 
-  testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.11'
+  testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.12'
   testCompile 'junit:junit:4.13.1'
 }
 
