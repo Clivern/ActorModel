@@ -53,7 +53,7 @@ dependencies {
   compile 'com.google.inject:guice:4.2.3'
 
   testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.11'
-  testCompile 'junit:junit:4.13.1'
+  testCompile 'junit:junit:4.13.2'
 }
 
 // make build
