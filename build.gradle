@@ -49,7 +49,7 @@ mainClassName = "com.clivern.BaseActor"
 
 dependencies {
   compile 'com.typesafe.akka:akka-actor-typed_2.13:2.6.19'
-  compile 'ch.qos.logback:logback-classic:1.2.8'
+  compile 'ch.qos.logback:logback-classic:1.4.6'
   compile 'com.google.inject:guice:5.0.1'
 
   testCompile 'com.typesafe.akka:akka-actor-testkit-typed_2.13:2.6.17'
