@@ -1,0 +1,111 @@
+repo_name: Clivern/ActorModel
+report_id: 49271d7759479f9dae8e4632426163c8
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T15:24:29+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-12-15 11:29:46.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source: build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-12-15 11:30:02.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Clivern
+  last_updated_on: 2020-08-09 16:45:50.000000000 Z
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.2.8
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/ActorModel/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-12-15 11:30:02.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: com.google.inject:guice
+  description: Guice is a lightweight dependency injection framework for Java 6 and
+    above
+  version: 5.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/ActorModel/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-21 21:22:35.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.13.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/Clivern/ActorModel/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: renovate[bot]
+  last_updated_on: 2021-02-17 14:59:02.000000000 Z
